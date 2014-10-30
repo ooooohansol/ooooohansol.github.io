@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+ 
+<style>
+ 
+ul{list-style-type: none;}
+  
+li{padding: 2px 0px 3px 0px;}
+ 
+body{font-family:"Malgum Gothic",sans-serif;
+     font-size: 9px;
+}
+ 
+ .g{padding: 10px 0px 0px 0px;}
+  
+ .s{padding: 0px 0px 0px 489px;
+ position: relative; top:0px;}
+  
+ .d {padding: 0px 0px 0px 13px;
+   font-weight: bold;}
+   
+ .a {padding: 0px 13px 0px 0px;
+     font-weight: bold;}
+     
+ .r{font-weight: bold;}
+ 
+ .w{font-weight: bold;}
+ 
+ .i{padding: 0px 8px 0px 0px;
+   font-weight: bold;}
+   
+ .p{font-weight: bold;
+    padding: 0px 8px 0px 0px;}
+    
+ .e{padding: 4px 0px 0px 0px;}
+ 
+ .q{text-align: right;
+   width: 570px;
+   position: relative;
+   padding: 0px 0px 2px 0px; }
+   
+ .f{padding: 0px 33px 3px 0px;}
+ 
+ 
+
+/* 
+div.en {display: none;}
+
+.en:hover ~ div.en {display: block;}
+.en:hover ~ div.ko {display: none;}
+.ko:hover ~ div.en {display: none;}
+.ko:hover ~ div.ko {display: block;}
+ */
+
+.lang {
+	position: fixed;
+	z-index: 1;
+}
+.ko {
+	left: 50px;
+}
+
+.hide {display: none;}
+
+</style>
+<script>
+window.addEventListener('load', function() {
+
+document.querySelector('.en.lang').addEventListener('mouseover', function(e) {
+	document.querySelector('div.ko').setAttribute('class', 'ko hide');
+	document.querySelector('div.en').setAttribute('class', 'en');
+});
+document.querySelector('.en.lang').addEventListener('mouseout', function(e) {
+});
+document.querySelector('.ko.lang').addEventListener('mouseover', function(e) {
+	document.querySelector('div.ko').setAttribute('class', 'ko');
+	document.querySelector('div.en').setAttribute('class', 'en hide');
+});
+document.querySelector('.ko.lang').addEventListener('mouseout', function(e) {
+});
+
+});
+</script>
+<body>
+
+<span class="en lang">English / </span>
+<span class="ko lang">한글</span>
+ 
+<div class="en hide">   
+<div class="g">
+<div class="q">
+<ul>
+<li><span class="i">Sunjung Kim</span>Platform: A Tentative Project<span class="d">004</span></li>
+<li>“I have nothing to say and I am saying it”<span class="d">014</span></li>
+<li><span class="w">John Cage / Kim Soun Gui</span><span class="d">026</span></li>
+<li><span class="w">Gilbert & George</span><span class="d">028</span></li>  
+</ul>
+  
+  
+<ul>
+<li class="f"><span class="i">Bartomeu Mari</span>«A Theatre Without Theatre»and «Great Theatre»:</li>
+<li>Two Experiments with Theatricality in the Arts of the 20th Century<span class="d">030</span></li>          
+<li><span class="w">Salvador Dali 
+</span><span class="d">040</span></li> 
+<li><span class="w">David Lamelas</span><span class="d">042</span></li>
+<li><span class="w">Bruce Nauman
+</span><span class="d">044</span></li>
+<li><span class="w">Robert Morris
+</span><span class="d">046</span></li>
+</ul>
+  
+<ul>
+<li class="f"><span class="i">Sohyun Park</span>
+  The Geopolitics of Informel and the ‘Acting Artist’:
+</li>
+<li>The Genealogy of its Conceptual Relocation
+<span class="d">048</span></li>
+<li><span class="w">Allan Kaprow
+</span><span class="d">072</span></li>
+<li><span class="w">Vito Acconci 
+</span><span class="d">074</span></li>
+<li><span class="w">Trisha Brown 
+</span><span class="d">076</span></li>
+<li><span class="w">Yvonne Rainer 
+</span><span class="d">078</span></li>
+</ul>
+  
+<ul>
+<li><span class="i">Fumihiko Sumitomo</span>
+  The Ethnographical Turn Occurring
+<span class="d">080</span></li>
+<li><span class="w">in Japanese Post・War Art 
+</span><span class="d">088</span></li>
+<li><span class="w">PLAY</span><span class="d">090</span></li>
+</ul>
+ 
+<ul>
+<li><span class="i">Shi Yang</span>
+  Performance and Live Art in China<span class="d">092</span></li>
+<li><span class="w">Action in China 
+</span><span class="d">098</span></li>
+<li><span class="w">DaDao Live Art Festival</span><span class="d">100</span></li>
+</ul>    
+</div>
+ 
+<div class="s">    
+ 
+<div class="r">
+<ul>
+<li><span class="a">108</span>Marina Abramović</li>
+<li><span class="a">110</span>Nina Beier & Marie Lund</li>
+<li><span class="a">114</span>Angela Bulloch </li>  
+<li><span class="a">118</span>Janet Cardiff  </li> 
+<li><span class="a">122</span>Jae Eun Choi</li> 
+<li><span class="a">126</span>contact Gonzo</li>
+<li><span class="a">130</span>Martin Creed</li>  
+<li><span class="a">134</span>Manon de Boer</li> 
+<li><span class="a">138</span>Jan Fabre</li>  
+<li><span class="a">142</span>Peter Fishli / David Weiss</li> 
+<li><span class="a">146</span>Dan Graham </li> 
+<li><span class="a">150</span>Yang Ah Ham</li>  
+<li><span class="a">154</span>Jeppe Hein</li>  
+<li><span class="a">158</span>Luis Jacob</li> 
+<li><span class="a">164</span>Sora Kim</li>  
+<li><span class="a">168</span>Kim Sung Gu</li>  
+<li><span class="a">170</span>Surasi Kusolwong</li> 
+<li><span class="a">174</span>Kang-so Lee</li>  
+<li><span class="a">178</span>MURAI Keitetsu</li>  
+<li><span class="a">182</span>Hwayeon Nam</li>  
+<li><span class="a">188</span>Jooyeon Park</li>  
+<li><span class="a">192</span>Navin Party</li>  
+<li><span class="a">196</span>Markus Schinwald</li>  
+<li><span class="a">200</span>Tino Sehgal</li>  
+<li><span class="a">204</span>Akira Takayama</li>  
+<li><span class="a">208</span>Koki Tanaka</li>  
+<li><span class="a">212</span>Ujino Muneteru</li>  
+<li><span class="a">216</span>Thoma Vuille</li>  
+<li><span class="a">220</span>Xijing Men</li>  
+<li><span class="a">226</span>Xu Zhen</li> 
+<li><span class="a">230</span>Dong Koo Yun</li>
+</ul>
+</div>
+  
+<ul>
+<li><span class="a">234</span>Lectures & Talks</li> 
+<li><span class="a">264</span>Video Screening Program</li> 
+<li><span class="a">272</span>Musical Theatre</li> 
+<li><span class="a">276</span>Platform Yokohama</li>
+</ul>
+ 
+<div class="e">
+<ul>
+<li><span class="a">282</span><span class="p">Hyun Jung</span>The Avant-Garde and Walking</li>          
+<li><span class="a">292</span><span class="p">Enna Bae</span>The Future Past: Platform Seoul 2008</li> 
+</ul>
+</div>
+  
+</div> 
+</div>
+</div>
+
+
+
+<div class="ko">
+
+
+<div class="g">
+<div class="q">
+<ul>
+<li><span class="i">김선정</span>플랫폼: 임시적 프로젝트<span class="d">004</span></li>
+<li>“I have nothing to say and I am saying it”<span class="d">014</span></li>
+<li><span class="w">존 케이지 / 김순기</span><span class="d">026</span></li>
+<li><span class="w">길버트 & 조지</span><span class="d">028</span></li>  
+</ul>
+  
+  
+<ul>
+<li class="f"><span class="i">바르또 마리</span>«무대 없는 연극»과 «세상이라는 거대한 연극»:</li>
+<li>20세기 미술 안에서의 연극성에 대한 두 가지 실험<span class="d">030</span></li>          
+<li><span class="w">살바도르 달리</span><span class="d">040</span></li> 
+<li><span class="w">다비드 라멜라스</span><span class="d">042</span></li>
+<li><span class="w">브루스 나우만</span><span class="d">044</span></li>
+<li><span class="w">로버트 모리스</span><span class="d">046</span></li>
+</ul>
+  
+<ul>
+<li class="f"><span class="i">박소현</span>
+  양포르엘의 지정학과 ‘행동하는 화가’:</li>
+<li>그 개념적 재배치의 계보<span class="d">048</span></li>
+<li><span class="w">앨런 캐프로</span><span class="d">072</span></li>
+<li><span class="w">비토 아콘치</span><span class="d">074</span></li>
+<li><span class="w">트리샤 브라운</span><span class="d">076</span></li>
+<li><span class="w">이본느 라이너</span><span class="d">078</span></li>
+</ul>
+  
+<ul>
+<li><span class="i">수미토모 후미히코</span>
+  전후 일본 예술의 민족지적 전환<span class="d">080</span></li>
+<li><span class="w">무라카미 사부로</span><span class="d">088</span></li>
+<li><span class="w">플레이</span><span class="d">090</span></li>
+</ul>
+ 
+<ul>
+<li><span class="i">슈양</span>
+  중국의 퍼포먼스와 라이브 아트<span class="d">092</span></li>
+<li><span class="w">액션 인 차이나액</span><span class="d">098</span></li>
+<li><span class="w">다다오 라이브 아트 페스티벌</span><span class="d">100</span></li>
+</ul>    
+</div>
+ 
+<div class="s">    
+ 
+<div class="r">
+<ul>
+
+<li><span class="a">108</span>마리나 아브라모비치</li>            
+<li><span class="a">110</span>나나 바이에르 & 마리 룬</li>
+<li><span class="a">114</span>안젤라 블로흐</li>  
+<li><span class="a">118</span>쟈넷 카디프</li> 
+<li><span class="a">122</span>최재은</li> 
+<li><span class="a">126</span>콘탁 곤조</li>
+<li><span class="a">130</span>마틴 크리드</li>  
+<li><span class="a">134</span>마농 더 부르</li> 
+<li><span class="a">138</span>얀 파브르</li>  
+<li><span class="a">142</span>페터 피슐리 / 다비드 바이스</li> 
+<li><span class="a">146</span>댄 그레이엄</li> 
+<li><span class="a">150</span>함양아</li>  
+<li><span class="a">154</span>에페 하인</li>  
+<li><span class="a">158</span>루이 자콥</li> 
+<li><span class="a">164</span>김소라</li>  
+<li><span class="a">168</span>김순기</li>  
+<li><span class="a">170</span>수라시 쿠솔롱</li> 
+<li><span class="a">174</span>미강소</li>  
+<li><span class="a">178</span>무라이 게이데쓰</li>  
+<li><span class="a">182</span>남화연</li>  
+<li><span class="a">188</span>박주연</li>  
+<li><span class="a">192</span>나빈당</li>  
+<li><span class="a">196</span>마르쿠스 쉰발트</li>  
+<li><span class="a">200</span>티노 세갈</li>  
+<li><span class="a">204</span>다카야마 아키라</li>  
+<li><span class="a">208</span>다나카 고키</li>  
+<li><span class="a">212</span>우지노 무네테루</li>  
+<li><span class="a">216</span>토마 뷔유</li>  
+<li><span class="a">220</span>시징맨</li>  
+<li><span class="a">226</span>슈 젠</li> 
+<li><span class="a">230</span>윤동구</li>
+</ul>
+</div>
+
+<div class="ww">  
+<ul>
+<li><span class="a">234</span>강연・토크</li> 
+<li><span class="a">264</span>비디오 프로그램</li> 
+<li><span class="a">272</span>음악극 공연</li> 
+<li><span class="a">276</span>플랫폼요코하마</li>
+</ul>
+</div>
+ 
+<div class="e">
+<ul>
+<li><span class="a">282</span><span class="p">정현</span>아방가르드와 걷기</li>          
+<li><span class="a">292</span><span class="p">배은아</span>미래의 과거: 플랫폼 서울 2008</li> 
+</ul>
+</div>
+  
+</div> 
+</div>
+
+
+</div>
+ 
+</body>
+</html>
